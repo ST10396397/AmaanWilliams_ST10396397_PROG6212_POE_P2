@@ -28,7 +28,7 @@ namespace AmaanWilliams_ST10396397_PROG6212_POE_P2
             InitializeComponent();
             LoadClaims();
         }
-
+        //Delete claim button on click
         private void DeleteClaim_Click(object sender, RoutedEventArgs e)
         {
             if (ClaimsListView.SelectedItem != null)
@@ -48,7 +48,7 @@ namespace AmaanWilliams_ST10396397_PROG6212_POE_P2
                 MessageBox.Show("Please select a claim to delete.");
             }
         }
-
+        //Load claims method
         private void LoadClaims()
         {
             string query = "SELECT ClaimID, ClassTaught, TotalAmount, ClaimStatus FROM Claims"; // Modify if necessary
