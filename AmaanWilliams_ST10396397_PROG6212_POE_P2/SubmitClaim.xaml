@@ -35,7 +35,7 @@
         <TextBlock Text="Supporting Documents:" FontSize="14" HorizontalAlignment="Left" VerticalAlignment="Top"/>
             <Button Content="Upload Document" Width="150" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top" Click="UploadDocument_Click" Margin="5"/>
 
-        <!-- Buttons -->
+            <!-- Buttons -->
             <Button Content="Calculate" Width="100" Height="30" HorizontalAlignment="Left" VerticalAlignment="Bottom" Click="CalculateButton_Click" Margin="5"/>
             <Button Content="Submit" Width="100" Height="30" HorizontalAlignment="Left" VerticalAlignment="Bottom" Click="SubmitButton_Click" Margin="5"/>
             <Button Content="Cancel" Width="100" Height="30" HorizontalAlignment="Left" VerticalAlignment="Bottom" Click="CancelButton_Click" Margin="5"/>
