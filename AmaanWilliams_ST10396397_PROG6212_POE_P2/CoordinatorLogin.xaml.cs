@@ -34,7 +34,7 @@ namespace AmaanWilliams_ST10396397_PROG6212_POE_P2
             // Validate input
             if (string.IsNullOrWhiteSpace(email) || string.IsNullOrWhiteSpace(password))
             {
-                MessageBox.Show("Please enter both email and password.");
+                MessageBox.Show("Please enter Email and Password");
                 return;
             }
 
