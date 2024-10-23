@@ -33,6 +33,7 @@ namespace AmaanWilliams_ST10396397_PROG6212_POE_P2
             string lastName = LastNameTextBox.Text.Trim();
             string email = EmailTextBox.Text.Trim();
             string password = PasswordBox.Password.Trim();  // This should be hashed in a real system!
+            string phoneNumber = PhoneNumberTextBox.Text.Trim();
 
             // Validate form input
             if (string.IsNullOrWhiteSpace(role) || string.IsNullOrWhiteSpace(firstName) ||

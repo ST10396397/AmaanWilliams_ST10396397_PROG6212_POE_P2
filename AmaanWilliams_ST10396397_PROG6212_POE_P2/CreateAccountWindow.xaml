@@ -40,8 +40,8 @@
             <PasswordBox x:Name="PasswordBox" Width="200"  VerticalAlignment="Top" Margin="5" HorizontalAlignment="Left"/>
 
         <!-- Phone Number -->
-            <TextBlock Text="Phone Number" Margin="20,300,0,0" VerticalAlignment="Top" />
-            <TextBox x:Name="PhoneNumberTextBox" Width="200" Margin="120,300,0,0" VerticalAlignment="Top" />
+            <TextBlock Text="Phone Number" VerticalAlignment="Top" />
+            <TextBox x:Name="PhoneNumberTextBox" Width="200" VerticalAlignment="Top" HorizontalAlignment="Left" />
 
         <!-- Submit Button -->
         <Button Content="Create Account" Width="150" Height="40" Margin="10" HorizontalAlignment="Center" VerticalAlignment="Top" Click="CreateAccountButton_Click"/>
