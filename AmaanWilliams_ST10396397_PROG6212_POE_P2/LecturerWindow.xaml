@@ -8,7 +8,6 @@
         Title="LecturerWindow" Height="450" Width="800">
     <Grid>
         <StackPanel>
-
             <StackPanel.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FF3554B7" Offset="0.153"/>
