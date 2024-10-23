@@ -13,7 +13,8 @@
                 <GradientStop Color="#FF1542AF" Offset="0"/>
             </LinearGradientBrush>
         </Grid.Background>
-        <ListView x:Name="ClaimsListView" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="20,20,20,60">
+        <TextBlock Text="View Submitted claims" HorizontalAlignment="Center" FontWeight="Bold" FontSize="20"/>
+        <ListView x:Name="ClaimsListView" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="20,30,20,60">
             <ListView.View>
                 <GridView>
                     <GridViewColumn Header="Claim ID" Width="80" DisplayMemberBinding="{Binding ClaimID}"/>
