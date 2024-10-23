@@ -1,0 +1,36 @@
+﻿<Window x:Class="AmaanWilliams_ST10396397_PROG6212_POE_P2.LecturerWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AmaanWilliams_ST10396397_PROG6212_POE_P2"
+        mc:Ignorable="d"
+        Title="LecturerWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel>
+
+            <StackPanel.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF3554B7" Offset="0.153"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </StackPanel.Background>
+            
+            <TextBlock Text="Lecturer Window" HorizontalAlignment="Center" FontSize="20" FontWeight="Bold"/>
+            <Button Content="Submit Claim" Width="200" Height="40"  Click="SubmitClaim_Click"/>
+            <Button Content="Upload Supporting Documents" Width="250" Height="40" HorizontalAlignment="Center" VerticalAlignment="Top"  Click="Button_Click" Margin="5"/>
+            <Button Content="View Claims" Width="200" Height="40" HorizontalAlignment="Center" VerticalAlignment="Top"  Click="ViewClaims_Click" Margin="5"/>
+            <TextBlock Text="Claim Status:" FontSize="16" Margin="10" FontWeight="Bold" />
+
+            <ListView x:Name="ClaimStatusListView" HorizontalAlignment="Stretch" VerticalAlignment="Top" Margin="10" >
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Class Taught" Width="200" DisplayMemberBinding="{Binding ClassTaught}"/>
+                    <GridViewColumn Header="Total Amount" Width="100" DisplayMemberBinding="{Binding TotalAmount}"/>
+                    <GridViewColumn Header="Claim Status" Width="100" DisplayMemberBinding="{Binding ClaimStatus}"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        </StackPanel>
+    </Grid>
+</Window>
