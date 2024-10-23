@@ -15,7 +15,7 @@
                 </LinearGradientBrush>
             </StackPanel.Background>
             
-            <TextBlock Text="LECTURER LOGIN" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="20" FontWeight="Bold" />
+            <TextBlock Text="LECTURER LOGIN" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="20" FontWeight="ExtraBold" />
 
         <TextBlock Text="Email:" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="DemiBold"/>
         <TextBox Name="EmailTextBox" Width="250" HorizontalAlignment="Center"  VerticalAlignment="Center"/>
