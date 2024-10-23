@@ -21,7 +21,7 @@
             <!-- login button-->
             <Button Content="Login as Lecturer" Width="200" Height="40" Margin="10" Click="LectuerLogin_Click" FontSize="15"/>
 
-            <!-- login button-->
+            <!-- login Coordinator button-->
             <Button Content="Login as Co-ordinator" Width="200" Height="40" Margin="10" Click="CoordinatorLogin_Click" FontSize="15"/>
 
             <!--Exit Button-->
