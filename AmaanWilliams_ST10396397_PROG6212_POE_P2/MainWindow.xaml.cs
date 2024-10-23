@@ -35,8 +35,8 @@ namespace AmaanWilliams_ST10396397_PROG6212_POE_P2
 
         private void CoordinatorLogin_Click(object sender, RoutedEventArgs e)
         {
-            CoordinatorLogin coordinatorLogin = new CoordinatorLogin();
-            coordinatorLogin.Show();
+            LecturerLogin lecturerLogin = new LecturerLogin();
+            lecturerLogin.Show();
         }
 
         private void Exit_Click(object sender, RoutedEventArgs e)
