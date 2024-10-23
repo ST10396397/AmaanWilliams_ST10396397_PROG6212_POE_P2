@@ -49,7 +49,7 @@ namespace AmaanWilliams_ST10396397_PROG6212_POE_P2
                 return;
             }
 
-            double hourlyRate = 105; // Fixed hourly rate
+            double hourlyRate = 120; // Fixed hourly rate
             totalAmount = numberOfSessions * hourlyRate;
             TotalAmountTextBlock.Text = totalAmount.ToString("C"); // Display total as currency
         }
