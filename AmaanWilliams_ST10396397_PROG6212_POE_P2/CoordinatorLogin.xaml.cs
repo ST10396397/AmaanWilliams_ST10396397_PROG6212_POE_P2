@@ -41,7 +41,7 @@ namespace AmaanWilliams_ST10396397_PROG6212_POE_P2
             try
             {
                 // Connection string to the database
-                string connectionString = "Data Source=hp820g4\\SQLEXPRESS;Initial Catalog=POE;Integrated Security=True;";
+                string connectionString = "Data Source=labG9AEB3\\SQLEXPRESS;Initial Catalog=PROG6212POE;Integrated Security=True;Trust Server Certificate=True";
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
                     // Open connection

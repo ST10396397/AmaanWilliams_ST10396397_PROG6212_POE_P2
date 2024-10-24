@@ -22,7 +22,7 @@ namespace AmaanWilliams_ST10396397_PROG6212_POE_P2
     public partial class ViewClaims : Window
     {
 
-        private string connectionString = "";
+        private string connectionString = "Data Source=labG9AEB3\\SQLEXPRESS;Initial Catalog=PROG6212POE;Integrated Security=True;Trust Server Certificate=True";
         public ViewClaims()
         {
             InitializeComponent();

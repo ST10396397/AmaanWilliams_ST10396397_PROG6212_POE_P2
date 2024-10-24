@@ -67,7 +67,7 @@ namespace AmaanWilliams_ST10396397_PROG6212_POE_P2
 
         private int GetClaimIDByClass(string classTaught)
         {
-            string connectionString = "";
+            string connectionString = "Data Source=labG9AEB3\\SQLEXPRESS;Initial Catalog=PROG6212POE;Integrated Security=True;Trust Server Certificate=True";
             string query = "SELECT ClaimID FROM Claims WHERE ClassTaught = @ClassTaught";
 
             using (SqlConnection connection = new SqlConnection(connectionString))
@@ -95,7 +95,7 @@ namespace AmaanWilliams_ST10396397_PROG6212_POE_P2
         // Method to save the supporting document to the database and update Claims table
         private void SaveSupportingDocument(int claimID, string documentPath)
         {
-            string connectionString = "";
+            string connectionString = "Data Source=labG9AEB3\\SQLEXPRESS;Initial Catalog=PROG6212POE;Integrated Security=True;Trust Server Certificate=True";
 
             // Insert into SupportingDocuments table
             string insertQuery = @"INSERT INTO SupportingDocuments (ClaimsID, DocName, FilePath, SubmissionDate)

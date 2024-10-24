@@ -72,7 +72,7 @@ namespace AmaanWilliams_ST10396397_PROG6212_POE_P2
         private List<Claim> GetClaimsFromDatabase()
         {
             List<Claim> claims = new List<Claim>();
-            string connectionString = "";
+            string connectionString = "Data Source=labG9AEB3\\SQLEXPRESS;Initial Catalog=PROG6212POE;Integrated Security=True;Trust Server Certificate=True";
             string query = "SELECT ClaimID, ClassTaught, TotalAmount, ClaimStatus FROM Claims";
 
             using (SqlConnection connection = new SqlConnection(connectionString))
@@ -104,7 +104,7 @@ namespace AmaanWilliams_ST10396397_PROG6212_POE_P2
 
         private void UpdateClaimStatus(int claimID, string newStatus)
         {
-            string connectionString = "";
+            string connectionString = "Data Source=labG9AEB3\\SQLEXPRESS;Initial Catalog=PROG6212POE;Integrated Security=True;Trust Server Certificate=True";
             string query = "UPDATE Claims SET ClaimStatus = @ClaimStatus WHERE ClaimID = @ClaimID";
 
             using (SqlConnection connection = new SqlConnection(connectionString))
